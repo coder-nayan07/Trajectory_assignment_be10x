@@ -1,0 +1,292 @@
+[0.000000] (-) TimerEvent: {}
+[0.001436] (trajectory_assignment) JobQueued: {'identifier': 'trajectory_assignment', 'dependencies': OrderedDict()}
+[0.001599] (trajectory_assignment) JobStarted: {'identifier': 'trajectory_assignment'}
+[0.019489] (trajectory_assignment) JobProgress: {'identifier': 'trajectory_assignment', 'progress': 'cmake'}
+[0.021230] (trajectory_assignment) JobProgress: {'identifier': 'trajectory_assignment', 'progress': 'build'}
+[0.023763] (trajectory_assignment) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nayan/ros2_ws/build/trajectory_assignment', '--', '-j16', '-l16'], 'cwd': '/home/nayan/ros2_ws/build/trajectory_assignment', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2000'), ('PYTHONWARNINGS', 'ignore:::setuptools.installer,ignore:::setuptools.command.install'), ('LANGUAGE', 'en_IN:en'), ('WARP_HONOR_PS1', '0'), ('USER', 'nayan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nayan'), ('OLDPWD', '/home/nayan/ros2_ws'), ('TERM_PROGRAM_VERSION', 'v0.2025.11.05.08.12.stable_00'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('WARP_USE_SSH_WRAPPER', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('MANAGERPID', '2072'), ('SYSTEMD_EXEC_PID', '2562'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '56932'), ('COLCON_PREFIX_PATH', '/home/nayan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nayan'), ('JOURNAL_STREAM', '8:19193'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nayan'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/nayan/.local/bin:/home/nayan/bin:/opt/ros/humble/bin:/home/nayan/.local/bin:/home/nayan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/self:@/tmp/.ICE-unix/2357,unix/self:/tmp/.ICE-unix/2357'), ('INVOCATION_ID', '44f3acf073ef4d278b1d7434ed997f38'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/nayan/ros2_ws/install/trajectory_assignment:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_EXPORT_COMPILE_COMMANDS', 'ON'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nayan/ros2_ws/build/trajectory_assignment'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nayan/ros2_ws/install/trajectory_assignment:/opt/ros/humble')]), 'shell': False}
+[0.085687] (trajectory_assignment) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099432] (-) TimerEvent: {}
+[0.200087] (-) TimerEvent: {}
+[0.300712] (-) TimerEvent: {}
+[0.356123] (trajectory_assignment) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400893] (-) TimerEvent: {}
+[0.418476] (trajectory_assignment) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.423368] (trajectory_assignment) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.436467] (trajectory_assignment) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.455225] (trajectory_assignment) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.478618] (trajectory_assignment) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.501081] (-) TimerEvent: {}
+[0.540004] (trajectory_assignment) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.542450] (trajectory_assignment) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.575117] (trajectory_assignment) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.601324] (-) TimerEvent: {}
+[0.666534] (trajectory_assignment) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.688286] (trajectory_assignment) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.701606] (-) TimerEvent: {}
+[0.720086] (trajectory_assignment) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.727606] (trajectory_assignment) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.733610] (trajectory_assignment) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.736000] (trajectory_assignment) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.801765] (-) TimerEvent: {}
+[0.889135] (trajectory_assignment) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.901916] (-) TimerEvent: {}
+[1.002395] (-) TimerEvent: {}
+[1.030748] (trajectory_assignment) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.031250] (trajectory_assignment) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.031430] (trajectory_assignment) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.031877] (trajectory_assignment) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.033218] (trajectory_assignment) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.033503] (trajectory_assignment) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.033836] (trajectory_assignment) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.035300] (trajectory_assignment) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.061914] (trajectory_assignment) StdoutLine: {'line': b'-- Generating done\n'}
+[1.072607] (trajectory_assignment) StdoutLine: {'line': b'-- Build files have been written to: /home/nayan/ros2_ws/build/trajectory_assignment\n'}
+[1.102592] (-) TimerEvent: {}
+[1.133696] (trajectory_assignment) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target planner_node\x1b[0m\n'}
+[1.157225] (trajectory_assignment) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o\x1b[0m\n'}
+[1.170374] (trajectory_assignment) StdoutLine: {'line': b'[ 75%] Built target planner_node\n'}
+[1.202864] (-) TimerEvent: {}
+[1.303404] (-) TimerEvent: {}
+[1.403932] (-) TimerEvent: {}
+[1.504521] (-) TimerEvent: {}
+[1.605135] (-) TimerEvent: {}
+[1.705658] (-) TimerEvent: {}
+[1.806306] (-) TimerEvent: {}
+[1.906838] (-) TimerEvent: {}
+[2.007331] (-) TimerEvent: {}
+[2.107846] (-) TimerEvent: {}
+[2.208369] (-) TimerEvent: {}
+[2.308983] (-) TimerEvent: {}
+[2.409588] (-) TimerEvent: {}
+[2.510343] (-) TimerEvent: {}
+[2.611187] (-) TimerEvent: {}
+[2.711709] (-) TimerEvent: {}
+[2.812444] (-) TimerEvent: {}
+[2.913251] (-) TimerEvent: {}
+[3.014039] (-) TimerEvent: {}
+[3.114843] (-) TimerEvent: {}
+[3.215298] (-) TimerEvent: {}
+[3.315780] (-) TimerEvent: {}
+[3.416406] (-) TimerEvent: {}
+[3.516927] (-) TimerEvent: {}
+[3.617464] (-) TimerEvent: {}
+[3.718007] (-) TimerEvent: {}
+[3.818550] (-) TimerEvent: {}
+[3.919078] (-) TimerEvent: {}
+[4.019563] (-) TimerEvent: {}
+[4.119999] (-) TimerEvent: {}
+[4.220399] (-) TimerEvent: {}
+[4.320822] (-) TimerEvent: {}
+[4.421254] (-) TimerEvent: {}
+[4.521688] (-) TimerEvent: {}
+[4.622294] (-) TimerEvent: {}
+[4.722810] (-) TimerEvent: {}
+[4.823276] (-) TimerEvent: {}
+[4.923704] (-) TimerEvent: {}
+[5.024206] (-) TimerEvent: {}
+[5.124706] (-) TimerEvent: {}
+[5.225145] (-) TimerEvent: {}
+[5.325796] (-) TimerEvent: {}
+[5.426481] (-) TimerEvent: {}
+[5.527079] (-) TimerEvent: {}
+[5.627611] (-) TimerEvent: {}
+[5.728277] (-) TimerEvent: {}
+[5.785124] (trajectory_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nayan/ros2_ws/src/trajectory_assignment/src/controller_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ControllerNode::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.785526] (trajectory_assignment) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nayan/ros2_ws/src/trajectory_assignment/src/controller_node.cpp:72:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[Kfound_target\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable\x07-Wunused-but-set-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.785693] (trajectory_assignment) StderrLine: {'line': b'   72 |         bool \x1b[01;35m\x1b[Kfound_target\x1b[m\x1b[K = false;\n'}
+[5.785833] (trajectory_assignment) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.828421] (-) TimerEvent: {}
+[5.929014] (-) TimerEvent: {}
+[6.029645] (-) TimerEvent: {}
+[6.130193] (-) TimerEvent: {}
+[6.231008] (-) TimerEvent: {}
+[6.331903] (-) TimerEvent: {}
+[6.432431] (-) TimerEvent: {}
+[6.533056] (-) TimerEvent: {}
+[6.633531] (-) TimerEvent: {}
+[6.734038] (-) TimerEvent: {}
+[6.834582] (-) TimerEvent: {}
+[6.935372] (-) TimerEvent: {}
+[7.035812] (-) TimerEvent: {}
+[7.136319] (-) TimerEvent: {}
+[7.236861] (-) TimerEvent: {}
+[7.337423] (-) TimerEvent: {}
+[7.437924] (-) TimerEvent: {}
+[7.538525] (-) TimerEvent: {}
+[7.639109] (-) TimerEvent: {}
+[7.739710] (-) TimerEvent: {}
+[7.840189] (-) TimerEvent: {}
+[7.940718] (-) TimerEvent: {}
+[8.041170] (-) TimerEvent: {}
+[8.141685] (-) TimerEvent: {}
+[8.242303] (-) TimerEvent: {}
+[8.342774] (-) TimerEvent: {}
+[8.443341] (-) TimerEvent: {}
+[8.543836] (-) TimerEvent: {}
+[8.644345] (-) TimerEvent: {}
+[8.744876] (-) TimerEvent: {}
+[8.845502] (-) TimerEvent: {}
+[8.946286] (-) TimerEvent: {}
+[9.046819] (-) TimerEvent: {}
+[9.147394] (-) TimerEvent: {}
+[9.247940] (-) TimerEvent: {}
+[9.348397] (-) TimerEvent: {}
+[9.448915] (-) TimerEvent: {}
+[9.549469] (-) TimerEvent: {}
+[9.650001] (-) TimerEvent: {}
+[9.750520] (-) TimerEvent: {}
+[9.851048] (-) TimerEvent: {}
+[9.951494] (-) TimerEvent: {}
+[10.051924] (-) TimerEvent: {}
+[10.152342] (-) TimerEvent: {}
+[10.252787] (-) TimerEvent: {}
+[10.353225] (-) TimerEvent: {}
+[10.453723] (-) TimerEvent: {}
+[10.554173] (-) TimerEvent: {}
+[10.654690] (-) TimerEvent: {}
+[10.755183] (-) TimerEvent: {}
+[10.855621] (-) TimerEvent: {}
+[10.956158] (-) TimerEvent: {}
+[11.056676] (-) TimerEvent: {}
+[11.157273] (-) TimerEvent: {}
+[11.257888] (-) TimerEvent: {}
+[11.358548] (-) TimerEvent: {}
+[11.459078] (-) TimerEvent: {}
+[11.559777] (-) TimerEvent: {}
+[11.660243] (-) TimerEvent: {}
+[11.760697] (-) TimerEvent: {}
+[11.861154] (-) TimerEvent: {}
+[11.961624] (-) TimerEvent: {}
+[12.062200] (-) TimerEvent: {}
+[12.162695] (-) TimerEvent: {}
+[12.263300] (-) TimerEvent: {}
+[12.363856] (-) TimerEvent: {}
+[12.464483] (-) TimerEvent: {}
+[12.565084] (-) TimerEvent: {}
+[12.665687] (-) TimerEvent: {}
+[12.766322] (-) TimerEvent: {}
+[12.866819] (-) TimerEvent: {}
+[12.967346] (-) TimerEvent: {}
+[13.067848] (-) TimerEvent: {}
+[13.168390] (-) TimerEvent: {}
+[13.268817] (-) TimerEvent: {}
+[13.369320] (-) TimerEvent: {}
+[13.469811] (-) TimerEvent: {}
+[13.570327] (-) TimerEvent: {}
+[13.670724] (-) TimerEvent: {}
+[13.771173] (-) TimerEvent: {}
+[13.871599] (-) TimerEvent: {}
+[13.972030] (-) TimerEvent: {}
+[14.072426] (-) TimerEvent: {}
+[14.172890] (-) TimerEvent: {}
+[14.273284] (-) TimerEvent: {}
+[14.373638] (-) TimerEvent: {}
+[14.474115] (-) TimerEvent: {}
+[14.574552] (-) TimerEvent: {}
+[14.675079] (-) TimerEvent: {}
+[14.775516] (-) TimerEvent: {}
+[14.875993] (-) TimerEvent: {}
+[14.976552] (-) TimerEvent: {}
+[15.077124] (-) TimerEvent: {}
+[15.177720] (-) TimerEvent: {}
+[15.278167] (-) TimerEvent: {}
+[15.378731] (-) TimerEvent: {}
+[15.479200] (-) TimerEvent: {}
+[15.579644] (-) TimerEvent: {}
+[15.680138] (-) TimerEvent: {}
+[15.780646] (-) TimerEvent: {}
+[15.881165] (-) TimerEvent: {}
+[15.981585] (-) TimerEvent: {}
+[16.082080] (-) TimerEvent: {}
+[16.182503] (-) TimerEvent: {}
+[16.283026] (-) TimerEvent: {}
+[16.383519] (-) TimerEvent: {}
+[16.484072] (-) TimerEvent: {}
+[16.584626] (-) TimerEvent: {}
+[16.685191] (-) TimerEvent: {}
+[16.785742] (-) TimerEvent: {}
+[16.886204] (-) TimerEvent: {}
+[16.986760] (-) TimerEvent: {}
+[17.087348] (-) TimerEvent: {}
+[17.187869] (-) TimerEvent: {}
+[17.288413] (-) TimerEvent: {}
+[17.388865] (-) TimerEvent: {}
+[17.489421] (-) TimerEvent: {}
+[17.589941] (-) TimerEvent: {}
+[17.690423] (-) TimerEvent: {}
+[17.791019] (-) TimerEvent: {}
+[17.891481] (-) TimerEvent: {}
+[17.991881] (-) TimerEvent: {}
+[18.092368] (-) TimerEvent: {}
+[18.192836] (-) TimerEvent: {}
+[18.293314] (-) TimerEvent: {}
+[18.393804] (-) TimerEvent: {}
+[18.494295] (-) TimerEvent: {}
+[18.594800] (-) TimerEvent: {}
+[18.695306] (-) TimerEvent: {}
+[18.795781] (-) TimerEvent: {}
+[18.896263] (-) TimerEvent: {}
+[18.996721] (-) TimerEvent: {}
+[19.097188] (-) TimerEvent: {}
+[19.197642] (-) TimerEvent: {}
+[19.298169] (-) TimerEvent: {}
+[19.398612] (-) TimerEvent: {}
+[19.499179] (-) TimerEvent: {}
+[19.599645] (-) TimerEvent: {}
+[19.700244] (-) TimerEvent: {}
+[19.800861] (-) TimerEvent: {}
+[19.901528] (-) TimerEvent: {}
+[20.002134] (-) TimerEvent: {}
+[20.102780] (-) TimerEvent: {}
+[20.203402] (-) TimerEvent: {}
+[20.304012] (-) TimerEvent: {}
+[20.404627] (-) TimerEvent: {}
+[20.505203] (-) TimerEvent: {}
+[20.605655] (-) TimerEvent: {}
+[20.706087] (-) TimerEvent: {}
+[20.806571] (-) TimerEvent: {}
+[20.906996] (-) TimerEvent: {}
+[21.007443] (-) TimerEvent: {}
+[21.108060] (-) TimerEvent: {}
+[21.208459] (-) TimerEvent: {}
+[21.309015] (-) TimerEvent: {}
+[21.409440] (-) TimerEvent: {}
+[21.509906] (-) TimerEvent: {}
+[21.610371] (-) TimerEvent: {}
+[21.710891] (-) TimerEvent: {}
+[21.792646] (trajectory_assignment) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller_node\x1b[0m\n'}
+[21.811050] (-) TimerEvent: {}
+[21.911525] (-) TimerEvent: {}
+[22.012040] (-) TimerEvent: {}
+[22.112518] (-) TimerEvent: {}
+[22.213017] (-) TimerEvent: {}
+[22.313473] (-) TimerEvent: {}
+[22.414073] (-) TimerEvent: {}
+[22.514536] (-) TimerEvent: {}
+[22.615081] (-) TimerEvent: {}
+[22.715540] (-) TimerEvent: {}
+[22.795293] (trajectory_assignment) StdoutLine: {'line': b'[100%] Built target controller_node\n'}
+[22.814765] (trajectory_assignment) CommandEnded: {'returncode': 0}
+[22.815562] (-) TimerEvent: {}
+[22.816378] (trajectory_assignment) JobProgress: {'identifier': 'trajectory_assignment', 'progress': 'install'}
+[22.835999] (trajectory_assignment) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nayan/ros2_ws/build/trajectory_assignment'], 'cwd': '/home/nayan/ros2_ws/build/trajectory_assignment', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2000'), ('PYTHONWARNINGS', 'ignore:::setuptools.installer,ignore:::setuptools.command.install'), ('LANGUAGE', 'en_IN:en'), ('WARP_HONOR_PS1', '0'), ('USER', 'nayan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nayan'), ('OLDPWD', '/home/nayan/ros2_ws'), ('TERM_PROGRAM_VERSION', 'v0.2025.11.05.08.12.stable_00'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('WARP_USE_SSH_WRAPPER', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('MANAGERPID', '2072'), ('SYSTEMD_EXEC_PID', '2562'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '56932'), ('COLCON_PREFIX_PATH', '/home/nayan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nayan'), ('JOURNAL_STREAM', '8:19193'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nayan'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/nayan/.local/bin:/home/nayan/bin:/opt/ros/humble/bin:/home/nayan/.local/bin:/home/nayan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/self:@/tmp/.ICE-unix/2357,unix/self:/tmp/.ICE-unix/2357'), ('INVOCATION_ID', '44f3acf073ef4d278b1d7434ed997f38'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/nayan/ros2_ws/install/trajectory_assignment:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_EXPORT_COMPILE_COMMANDS', 'ON'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nayan/ros2_ws/build/trajectory_assignment'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nayan/ros2_ws/install/trajectory_assignment:/opt/ros/humble')]), 'shell': False}
+[22.849904] (trajectory_assignment) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.850387] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/lib/trajectory_assignment/planner_node\n'}
+[22.850571] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/package_run_dependencies/trajectory_assignment\n'}
+[22.850682] (trajectory_assignment) StdoutLine: {'line': b'-- Installing: /home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/parent_prefix_path/trajectory_assignment\n'}
+[22.850872] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/ament_prefix_path.sh\n'}
+[22.850973] (trajectory_assignment) StdoutLine: {'line': b'-- Installing: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/ament_prefix_path.dsv\n'}
+[22.851136] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/path.sh\n'}
+[22.851218] (trajectory_assignment) StdoutLine: {'line': b'-- Installing: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/path.dsv\n'}
+[22.851295] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.bash\n'}
+[22.851371] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.sh\n'}
+[22.851444] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.zsh\n'}
+[22.851559] (trajectory_assignment) StdoutLine: {'line': b'-- Installing: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.dsv\n'}
+[22.851629] (trajectory_assignment) StdoutLine: {'line': b'-- Installing: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/package.dsv\n'}
+[22.851695] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/packages/trajectory_assignment\n'}
+[22.851759] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/cmake/trajectory_assignmentConfig.cmake\n'}
+[22.851825] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/cmake/trajectory_assignmentConfig-version.cmake\n'}
+[22.851890] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/package.xml\n'}
+[22.854628] (trajectory_assignment) CommandEnded: {'returncode': 0}
+[22.882325] (trajectory_assignment) JobEnded: {'identifier': 'trajectory_assignment', 'rc': 0}
+[22.883557] (-) EventReactorShutdown: {}

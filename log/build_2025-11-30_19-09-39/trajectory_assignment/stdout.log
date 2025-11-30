@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target controller_node[0m
+[ 50%] Built target planner_node
+[100%] Built target controller_node
+-- Install configuration: ""
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/lib/trajectory_assignment/planner_node
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/package_run_dependencies/trajectory_assignment
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/parent_prefix_path/trajectory_assignment
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/path.sh
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/path.dsv
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.bash
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.sh
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.zsh
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.dsv
+-- Installing: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/package.dsv
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/packages/trajectory_assignment
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/cmake/trajectory_assignmentConfig.cmake
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/cmake/trajectory_assignmentConfig-version.cmake
+-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/package.xml

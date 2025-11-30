@@ -1,0 +1,17 @@
+/home/nayan/ros2_ws/install/trajectory_assignment/lib/trajectory_assignment/planner_node
+/home/nayan/ros2_ws/install/trajectory_assignment/lib/trajectory_assignment/controller_node
+/home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/package_run_dependencies/trajectory_assignment
+/home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/parent_prefix_path/trajectory_assignment
+/home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/ament_prefix_path.sh
+/home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/ament_prefix_path.dsv
+/home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/path.sh
+/home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/path.dsv
+/home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.bash
+/home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.sh
+/home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.zsh
+/home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.dsv
+/home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/package.dsv
+/home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/packages/trajectory_assignment
+/home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/cmake/trajectory_assignmentConfig.cmake
+/home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/cmake/trajectory_assignmentConfig-version.cmake
+/home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/package.xml

@@ -1,0 +1,8 @@
+[0.035s] Invoking command in '/home/nayan/ros2_ws/build/trajectory_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nayan/ros2_ws/build/trajectory_assignment -- -j16 -l16
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target controller_node[0m
+[0.232s] [ 50%] Built target planner_node
+[0.255s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o[0m
+[9.002s] gmake[2]: *** [CMakeFiles/controller_node.dir/build.make:76: CMakeFiles/controller_node.dir/src/controller_node.cpp.o] Interrupt
+[9.003s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/controller_node.dir/all] Interrupt
+[9.003s] gmake: *** [Makefile:146: all] Interrupt
+[9.047s] Invoked command in '/home/nayan/ros2_ws/build/trajectory_assignment' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nayan/ros2_ws/build/trajectory_assignment -- -j16 -l16

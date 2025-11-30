@@ -1,0 +1,6 @@
+Invoking command in '/home/nayan/ros2_ws/build/trajectory_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nayan/ros2_ws/src/trajectory_assignment -DCMAKE_INSTALL_PREFIX=/home/nayan/ros2_ws/install/trajectory_assignment
+Invoked command in '/home/nayan/ros2_ws/build/trajectory_assignment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nayan/ros2_ws/src/trajectory_assignment -DCMAKE_INSTALL_PREFIX=/home/nayan/ros2_ws/install/trajectory_assignment
+Invoking command in '/home/nayan/ros2_ws/build/trajectory_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nayan/ros2_ws/build/trajectory_assignment -- -j16 -l16
+Invoked command in '/home/nayan/ros2_ws/build/trajectory_assignment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nayan/ros2_ws/build/trajectory_assignment -- -j16 -l16
+Invoking command in '/home/nayan/ros2_ws/build/trajectory_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nayan/ros2_ws/build/trajectory_assignment
+Invoked command in '/home/nayan/ros2_ws/build/trajectory_assignment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nayan/ros2_ws/build/trajectory_assignment

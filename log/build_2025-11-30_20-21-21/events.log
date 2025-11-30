@@ -1,0 +1,273 @@
+[0.000000] (-) TimerEvent: {}
+[0.000572] (trajectory_assignment) JobQueued: {'identifier': 'trajectory_assignment', 'dependencies': OrderedDict()}
+[0.000850] (trajectory_assignment) JobStarted: {'identifier': 'trajectory_assignment'}
+[0.018053] (trajectory_assignment) JobProgress: {'identifier': 'trajectory_assignment', 'progress': 'cmake'}
+[0.021125] (trajectory_assignment) JobProgress: {'identifier': 'trajectory_assignment', 'progress': 'build'}
+[0.023670] (trajectory_assignment) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nayan/ros2_ws/build/trajectory_assignment', '--', '-j16', '-l16'], 'cwd': '/home/nayan/ros2_ws/build/trajectory_assignment', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2000'), ('LANGUAGE', 'en_IN:en'), ('WARP_HONOR_PS1', '0'), ('USER', 'nayan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nayan'), ('OLDPWD', '/home/nayan/ros2_ws'), ('TERM_PROGRAM_VERSION', 'v0.2025.11.05.08.12.stable_00'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('WARP_USE_SSH_WRAPPER', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('MANAGERPID', '2176'), ('SYSTEMD_EXEC_PID', '2669'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4446'), ('COLCON_PREFIX_PATH', '/home/nayan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nayan'), ('JOURNAL_STREAM', '8:18153'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nayan'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/nayan/.local/bin:/home/nayan/bin:/opt/ros/humble/bin:/home/nayan/.local/bin:/home/nayan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/self:@/tmp/.ICE-unix/2457,unix/self:/tmp/.ICE-unix/2457'), ('INVOCATION_ID', 'eb2a89aa77fd42cf807c0c860a9a727a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nayan/ros2_ws/install/trajectory_assignment:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nayan/ros2_ws/build/trajectory_assignment'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nayan/ros2_ws/install/trajectory_assignment:/opt/ros/humble')]), 'shell': False}
+[0.097904] (-) TimerEvent: {}
+[0.198743] (-) TimerEvent: {}
+[0.204135] (trajectory_assignment) StdoutLine: {'line': b'[ 50%] Built target planner_node\n'}
+[0.220137] (trajectory_assignment) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o\x1b[0m\n'}
+[0.299029] (-) TimerEvent: {}
+[0.400237] (-) TimerEvent: {}
+[0.500962] (-) TimerEvent: {}
+[0.601692] (-) TimerEvent: {}
+[0.702589] (-) TimerEvent: {}
+[0.803281] (-) TimerEvent: {}
+[0.904074] (-) TimerEvent: {}
+[1.004915] (-) TimerEvent: {}
+[1.105883] (-) TimerEvent: {}
+[1.206652] (-) TimerEvent: {}
+[1.307565] (-) TimerEvent: {}
+[1.408375] (-) TimerEvent: {}
+[1.509143] (-) TimerEvent: {}
+[1.609867] (-) TimerEvent: {}
+[1.710657] (-) TimerEvent: {}
+[1.811178] (-) TimerEvent: {}
+[1.911677] (-) TimerEvent: {}
+[2.012177] (-) TimerEvent: {}
+[2.112683] (-) TimerEvent: {}
+[2.213379] (-) TimerEvent: {}
+[2.314272] (-) TimerEvent: {}
+[2.415170] (-) TimerEvent: {}
+[2.515949] (-) TimerEvent: {}
+[2.616634] (-) TimerEvent: {}
+[2.717239] (-) TimerEvent: {}
+[2.817746] (-) TimerEvent: {}
+[2.918356] (-) TimerEvent: {}
+[3.019193] (-) TimerEvent: {}
+[3.120217] (-) TimerEvent: {}
+[3.220789] (-) TimerEvent: {}
+[3.321344] (-) TimerEvent: {}
+[3.421950] (-) TimerEvent: {}
+[3.522410] (-) TimerEvent: {}
+[3.622892] (-) TimerEvent: {}
+[3.723412] (-) TimerEvent: {}
+[3.823960] (-) TimerEvent: {}
+[3.924492] (-) TimerEvent: {}
+[4.025022] (-) TimerEvent: {}
+[4.125509] (-) TimerEvent: {}
+[4.225939] (-) TimerEvent: {}
+[4.326482] (-) TimerEvent: {}
+[4.427049] (-) TimerEvent: {}
+[4.527658] (-) TimerEvent: {}
+[4.628072] (-) TimerEvent: {}
+[4.728467] (-) TimerEvent: {}
+[4.828909] (-) TimerEvent: {}
+[4.929420] (-) TimerEvent: {}
+[5.029957] (-) TimerEvent: {}
+[5.130592] (-) TimerEvent: {}
+[5.231451] (-) TimerEvent: {}
+[5.332327] (-) TimerEvent: {}
+[5.433215] (-) TimerEvent: {}
+[5.534025] (-) TimerEvent: {}
+[5.634530] (-) TimerEvent: {}
+[5.735037] (-) TimerEvent: {}
+[5.835587] (-) TimerEvent: {}
+[5.936065] (-) TimerEvent: {}
+[6.036535] (-) TimerEvent: {}
+[6.137007] (-) TimerEvent: {}
+[6.237515] (-) TimerEvent: {}
+[6.338131] (-) TimerEvent: {}
+[6.438760] (-) TimerEvent: {}
+[6.539275] (-) TimerEvent: {}
+[6.639819] (-) TimerEvent: {}
+[6.740419] (-) TimerEvent: {}
+[6.841058] (-) TimerEvent: {}
+[6.941598] (-) TimerEvent: {}
+[7.042217] (-) TimerEvent: {}
+[7.142996] (-) TimerEvent: {}
+[7.243484] (-) TimerEvent: {}
+[7.344005] (-) TimerEvent: {}
+[7.444639] (-) TimerEvent: {}
+[7.545142] (-) TimerEvent: {}
+[7.645649] (-) TimerEvent: {}
+[7.746150] (-) TimerEvent: {}
+[7.846672] (-) TimerEvent: {}
+[7.947278] (-) TimerEvent: {}
+[8.047784] (-) TimerEvent: {}
+[8.148274] (-) TimerEvent: {}
+[8.248895] (-) TimerEvent: {}
+[8.349478] (-) TimerEvent: {}
+[8.449948] (-) TimerEvent: {}
+[8.550421] (-) TimerEvent: {}
+[8.650898] (-) TimerEvent: {}
+[8.751653] (-) TimerEvent: {}
+[8.852244] (-) TimerEvent: {}
+[8.952819] (-) TimerEvent: {}
+[9.053442] (-) TimerEvent: {}
+[9.154100] (-) TimerEvent: {}
+[9.254717] (-) TimerEvent: {}
+[9.355271] (-) TimerEvent: {}
+[9.455773] (-) TimerEvent: {}
+[9.556228] (-) TimerEvent: {}
+[9.656842] (-) TimerEvent: {}
+[9.757399] (-) TimerEvent: {}
+[9.857990] (-) TimerEvent: {}
+[9.958521] (-) TimerEvent: {}
+[10.059040] (-) TimerEvent: {}
+[10.159564] (-) TimerEvent: {}
+[10.260057] (-) TimerEvent: {}
+[10.360610] (-) TimerEvent: {}
+[10.461159] (-) TimerEvent: {}
+[10.561670] (-) TimerEvent: {}
+[10.662172] (-) TimerEvent: {}
+[10.762761] (-) TimerEvent: {}
+[10.863399] (-) TimerEvent: {}
+[10.964059] (-) TimerEvent: {}
+[11.064818] (-) TimerEvent: {}
+[11.165325] (-) TimerEvent: {}
+[11.265838] (-) TimerEvent: {}
+[11.366373] (-) TimerEvent: {}
+[11.466923] (-) TimerEvent: {}
+[11.567691] (-) TimerEvent: {}
+[11.668297] (-) TimerEvent: {}
+[11.768869] (-) TimerEvent: {}
+[11.869420] (-) TimerEvent: {}
+[11.970005] (-) TimerEvent: {}
+[12.070650] (-) TimerEvent: {}
+[12.171354] (-) TimerEvent: {}
+[12.272006] (-) TimerEvent: {}
+[12.372574] (-) TimerEvent: {}
+[12.473069] (-) TimerEvent: {}
+[12.573642] (-) TimerEvent: {}
+[12.674222] (-) TimerEvent: {}
+[12.774818] (-) TimerEvent: {}
+[12.875411] (-) TimerEvent: {}
+[12.975890] (-) TimerEvent: {}
+[13.076385] (-) TimerEvent: {}
+[13.176920] (-) TimerEvent: {}
+[13.277420] (-) TimerEvent: {}
+[13.377837] (-) TimerEvent: {}
+[13.478243] (-) TimerEvent: {}
+[13.578810] (-) TimerEvent: {}
+[13.679346] (-) TimerEvent: {}
+[13.779802] (-) TimerEvent: {}
+[13.880324] (-) TimerEvent: {}
+[13.980843] (-) TimerEvent: {}
+[14.081337] (-) TimerEvent: {}
+[14.181970] (-) TimerEvent: {}
+[14.282530] (-) TimerEvent: {}
+[14.383021] (-) TimerEvent: {}
+[14.483604] (-) TimerEvent: {}
+[14.584366] (-) TimerEvent: {}
+[14.684970] (-) TimerEvent: {}
+[14.785631] (-) TimerEvent: {}
+[14.886261] (-) TimerEvent: {}
+[14.986908] (-) TimerEvent: {}
+[15.087490] (-) TimerEvent: {}
+[15.188049] (-) TimerEvent: {}
+[15.288567] (-) TimerEvent: {}
+[15.388989] (-) TimerEvent: {}
+[15.489510] (-) TimerEvent: {}
+[15.589998] (-) TimerEvent: {}
+[15.690594] (-) TimerEvent: {}
+[15.791055] (-) TimerEvent: {}
+[15.891574] (-) TimerEvent: {}
+[15.992029] (-) TimerEvent: {}
+[16.092490] (-) TimerEvent: {}
+[16.192964] (-) TimerEvent: {}
+[16.293477] (-) TimerEvent: {}
+[16.394167] (-) TimerEvent: {}
+[16.494665] (-) TimerEvent: {}
+[16.595106] (-) TimerEvent: {}
+[16.695564] (-) TimerEvent: {}
+[16.796036] (-) TimerEvent: {}
+[16.896522] (-) TimerEvent: {}
+[16.996962] (-) TimerEvent: {}
+[17.097536] (-) TimerEvent: {}
+[17.197976] (-) TimerEvent: {}
+[17.298423] (-) TimerEvent: {}
+[17.398908] (-) TimerEvent: {}
+[17.499484] (-) TimerEvent: {}
+[17.600231] (-) TimerEvent: {}
+[17.700706] (-) TimerEvent: {}
+[17.801359] (-) TimerEvent: {}
+[17.901874] (-) TimerEvent: {}
+[18.002475] (-) TimerEvent: {}
+[18.103108] (-) TimerEvent: {}
+[18.203781] (-) TimerEvent: {}
+[18.304369] (-) TimerEvent: {}
+[18.404970] (-) TimerEvent: {}
+[18.505578] (-) TimerEvent: {}
+[18.606173] (-) TimerEvent: {}
+[18.706643] (-) TimerEvent: {}
+[18.807093] (-) TimerEvent: {}
+[18.907663] (-) TimerEvent: {}
+[19.008108] (-) TimerEvent: {}
+[19.108670] (-) TimerEvent: {}
+[19.209197] (-) TimerEvent: {}
+[19.309760] (-) TimerEvent: {}
+[19.410354] (-) TimerEvent: {}
+[19.510868] (-) TimerEvent: {}
+[19.611394] (-) TimerEvent: {}
+[19.711915] (-) TimerEvent: {}
+[19.812465] (-) TimerEvent: {}
+[19.912983] (-) TimerEvent: {}
+[20.013709] (-) TimerEvent: {}
+[20.114386] (-) TimerEvent: {}
+[20.215105] (-) TimerEvent: {}
+[20.315787] (-) TimerEvent: {}
+[20.416258] (-) TimerEvent: {}
+[20.516866] (-) TimerEvent: {}
+[20.617375] (-) TimerEvent: {}
+[20.717975] (-) TimerEvent: {}
+[20.818440] (-) TimerEvent: {}
+[20.919023] (-) TimerEvent: {}
+[21.019709] (-) TimerEvent: {}
+[21.120521] (-) TimerEvent: {}
+[21.221383] (-) TimerEvent: {}
+[21.323664] (-) TimerEvent: {}
+[21.424272] (-) TimerEvent: {}
+[21.524802] (-) TimerEvent: {}
+[21.625416] (-) TimerEvent: {}
+[21.725892] (-) TimerEvent: {}
+[21.826402] (-) TimerEvent: {}
+[21.926919] (-) TimerEvent: {}
+[22.027440] (-) TimerEvent: {}
+[22.128049] (-) TimerEvent: {}
+[22.228604] (-) TimerEvent: {}
+[22.329056] (-) TimerEvent: {}
+[22.422513] (trajectory_assignment) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller_node\x1b[0m\n'}
+[22.429200] (-) TimerEvent: {}
+[22.529697] (-) TimerEvent: {}
+[22.630251] (-) TimerEvent: {}
+[22.730938] (-) TimerEvent: {}
+[22.831517] (-) TimerEvent: {}
+[22.932069] (-) TimerEvent: {}
+[23.032628] (-) TimerEvent: {}
+[23.133147] (-) TimerEvent: {}
+[23.233698] (-) TimerEvent: {}
+[23.334286] (-) TimerEvent: {}
+[23.434994] (-) TimerEvent: {}
+[23.535783] (-) TimerEvent: {}
+[23.636473] (-) TimerEvent: {}
+[23.737186] (-) TimerEvent: {}
+[23.837963] (-) TimerEvent: {}
+[23.857159] (trajectory_assignment) StdoutLine: {'line': b'[100%] Built target controller_node\n'}
+[23.889129] (trajectory_assignment) CommandEnded: {'returncode': 0}
+[23.891505] (trajectory_assignment) JobProgress: {'identifier': 'trajectory_assignment', 'progress': 'install'}
+[23.918626] (trajectory_assignment) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nayan/ros2_ws/build/trajectory_assignment'], 'cwd': '/home/nayan/ros2_ws/build/trajectory_assignment', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HISTFILESIZE', '2000'), ('LANGUAGE', 'en_IN:en'), ('WARP_HONOR_PS1', '0'), ('USER', 'nayan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nayan'), ('OLDPWD', '/home/nayan/ros2_ws'), ('TERM_PROGRAM_VERSION', 'v0.2025.11.05.08.12.stable_00'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('WARP_USE_SSH_WRAPPER', '1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge:appmenu-gtk-module'), ('MANAGERPID', '2176'), ('SYSTEMD_EXEC_PID', '2669'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4446'), ('COLCON_PREFIX_PATH', '/home/nayan/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nayan'), ('JOURNAL_STREAM', '8:18153'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nayan'), ('SSH_SOCKET_DIR', '~/.ssh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WARP_IS_LOCAL_SHELL_SESSION', '1'), ('WINDOWPATH', '2'), ('PATH', '/home/nayan/.local/bin:/home/nayan/bin:/opt/ros/humble/bin:/home/nayan/.local/bin:/home/nayan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/self:@/tmp/.ICE-unix/2457,unix/self:/tmp/.ICE-unix/2457'), ('INVOCATION_ID', 'eb2a89aa77fd42cf807c0c860a9a727a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'WarpTerminal'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nayan/ros2_ws/install/trajectory_assignment:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nayan/ros2_ws/build/trajectory_assignment'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/nayan/ros2_ws/install/trajectory_assignment:/opt/ros/humble')]), 'shell': False}
+[23.938259] (-) TimerEvent: {}
+[23.941730] (trajectory_assignment) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.942262] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/lib/trajectory_assignment/planner_node\n'}
+[23.942657] (trajectory_assignment) StdoutLine: {'line': b'-- Installing: /home/nayan/ros2_ws/install/trajectory_assignment/lib/trajectory_assignment/controller_node\n'}
+[23.952279] (trajectory_assignment) StdoutLine: {'line': b'-- Set runtime path of "/home/nayan/ros2_ws/install/trajectory_assignment/lib/trajectory_assignment/controller_node" to ""\n'}
+[23.953142] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/package_run_dependencies/trajectory_assignment\n'}
+[23.953650] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/parent_prefix_path/trajectory_assignment\n'}
+[23.953937] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/ament_prefix_path.sh\n'}
+[23.954223] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/ament_prefix_path.dsv\n'}
+[23.954537] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/path.sh\n'}
+[23.954818] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/path.dsv\n'}
+[23.955096] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.bash\n'}
+[23.955697] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.sh\n'}
+[23.956156] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.zsh\n'}
+[23.956349] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.dsv\n'}
+[23.956503] (trajectory_assignment) StdoutLine: {'line': b'-- Installing: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/package.dsv\n'}
+[23.956679] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/packages/trajectory_assignment\n'}
+[23.956816] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/cmake/trajectory_assignmentConfig.cmake\n'}
+[23.956955] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/cmake/trajectory_assignmentConfig-version.cmake\n'}
+[23.957082] (trajectory_assignment) StdoutLine: {'line': b'-- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/package.xml\n'}
+[23.959016] (trajectory_assignment) CommandEnded: {'returncode': 0}
+[23.994634] (trajectory_assignment) JobEnded: {'identifier': 'trajectory_assignment', 'rc': 0}
+[23.996610] (-) EventReactorShutdown: {}

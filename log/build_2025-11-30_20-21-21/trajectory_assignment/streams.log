@@ -1,0 +1,27 @@
+[0.030s] Invoking command in '/home/nayan/ros2_ws/build/trajectory_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nayan/ros2_ws/build/trajectory_assignment -- -j16 -l16
+[0.204s] [ 50%] Built target planner_node
+[0.220s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_node.dir/src/controller_node.cpp.o[0m
+[22.422s] [100%] [32m[1mLinking CXX executable controller_node[0m
+[23.857s] [100%] Built target controller_node
+[23.889s] Invoked command in '/home/nayan/ros2_ws/build/trajectory_assignment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nayan/ros2_ws/build/trajectory_assignment -- -j16 -l16
+[23.919s] Invoking command in '/home/nayan/ros2_ws/build/trajectory_assignment': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nayan/ros2_ws/build/trajectory_assignment
+[23.941s] -- Install configuration: ""
+[23.942s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/lib/trajectory_assignment/planner_node
+[23.942s] -- Installing: /home/nayan/ros2_ws/install/trajectory_assignment/lib/trajectory_assignment/controller_node
+[23.952s] -- Set runtime path of "/home/nayan/ros2_ws/install/trajectory_assignment/lib/trajectory_assignment/controller_node" to ""
+[23.953s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/package_run_dependencies/trajectory_assignment
+[23.953s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/parent_prefix_path/trajectory_assignment
+[23.953s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/ament_prefix_path.sh
+[23.954s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/ament_prefix_path.dsv
+[23.954s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/path.sh
+[23.954s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/environment/path.dsv
+[23.954s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.bash
+[23.955s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.sh
+[23.955s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.zsh
+[23.956s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/local_setup.dsv
+[23.956s] -- Installing: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/package.dsv
+[23.956s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/ament_index/resource_index/packages/trajectory_assignment
+[23.956s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/cmake/trajectory_assignmentConfig.cmake
+[23.956s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/cmake/trajectory_assignmentConfig-version.cmake
+[23.956s] -- Up-to-date: /home/nayan/ros2_ws/install/trajectory_assignment/share/trajectory_assignment/package.xml
+[23.959s] Invoked command in '/home/nayan/ros2_ws/build/trajectory_assignment' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nayan/ros2_ws/build/trajectory_assignment
