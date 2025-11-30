@@ -27,9 +27,8 @@ mkdir -p ~/ros2_ws/src
 cd ~/ros2_ws/src
 
 # 2. Clone/Place this package folder 'trajectory_assignment' here
-    ```bash
-    git clone https://github.com/coder-nayan07/Trajectory_assignment_be10x.git
-    ```   
+git clone https://github.com/coder-nayan07/Trajectory_assignment_be10x.git
+  
 # 3. Build the package
 cd ~/ros2_ws
 colcon build --packages-select trajectory_assignment
